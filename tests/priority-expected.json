@@ -1,0 +1,48 @@
+{
+  "cash": [
+    {
+      "value": 3
+    },
+    {
+      "value": 0
+    },
+    {
+      "value": 0
+    }
+  ],
+  "claims": [
+    [
+      {
+        "value": 2
+      },
+      {
+        "value": 0
+      },
+      {
+        "value": 2
+      }
+    ],
+    [
+      {
+        "value": 0
+      },
+      {
+        "value": 0
+      },
+      {
+        "value": 3
+      }
+    ],
+    [
+      {
+        "value": 0
+      },
+      {
+        "value": 0
+      },
+      {
+        "value": 0
+      }
+    ]
+  ]
+}

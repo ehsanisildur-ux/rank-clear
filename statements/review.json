@@ -1,0 +1,60 @@
+{
+  "snapshot": "review-snapshot",
+  "unit": "clearing-unit",
+  "firms": [
+    {
+      "firm": "amber",
+      "cash": "The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.",
+      "claims": [
+        {
+          "creditor": "bronze",
+          "text": "The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+        },
+        {
+          "creditor": "jade",
+          "text": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+        },
+        {
+          "creditor": "outside",
+          "text": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+        }
+      ]
+    },
+    {
+      "firm": "bronze",
+      "cash": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+      "claims": [
+        {
+          "creditor": "amber",
+          "text": "Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+        },
+        {
+          "creditor": "jade",
+          "text": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+        },
+        {
+          "creditor": "outside",
+          "text": "The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+        }
+      ]
+    },
+    {
+      "firm": "jade",
+      "cash": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+      "claims": [
+        {
+          "creditor": "amber",
+          "text": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+        },
+        {
+          "creditor": "bronze",
+          "text": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+        },
+        {
+          "creditor": "outside",
+          "text": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+        }
+      ]
+    }
+  ]
+}
