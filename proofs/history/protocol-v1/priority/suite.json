@@ -1,0 +1,32 @@
+[
+  {
+    "id": "priority",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x6D5F0630C57b95cBDacb74C9365c4E0Bf202A8c5",
+    "deployment": "0x35dadb264ca286fe333e4dd1bacde121c131fe68a4a5ecc657256a94b2551070",
+    "caller": "0x5a9acfe7afc032d95e47473ff5e302e96413272c",
+    "args": [
+      "ehsanisildur-ux/rank-clear",
+      [
+        [
+          "bronze",
+          "jade",
+          "outside"
+        ],
+        [
+          "amber",
+          "jade",
+          "outside"
+        ],
+        [
+          "amber",
+          "bronze",
+          "outside"
+        ]
+      ]
+    ],
+    "fixture_revision": "c83027ba49e5404498060f8526998adb435edd49",
+    "source_sha256": "0953545e00ddbbc5ba31ee60f5526ce6c1784e44603185c4ed932c4bec3ec523"
+  }
+]

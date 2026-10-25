@@ -1,0 +1,85 @@
+{
+  "scope": "cycle",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-25T07:08:21.508Z",
+  "source_sha256": "0953545e00ddbbc5ba31ee60f5526ce6c1784e44603185c4ed932c4bec3ec523",
+  "instances": [
+    {
+      "id": "cycle",
+      "contract": "0xc994C0dC7602e24B612bAa6587E6F9E103EF06c6",
+      "status": "MULTIPLE",
+      "stress_queries": 12
+    }
+  ],
+  "transactions": [
+    {
+      "label": "cycle-deployment",
+      "hash": "0xdc031fc69df5f530684eb0b56e2f7cbe5945b9dc5d335fdbd794aa5329263d28",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "cycle-reject-hash",
+      "hash": "0x922c7be1d769ab279c24b94a19b1724d39b6f1dd3d07e275e2991f132ce454ed",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "cycle-ingest",
+      "hash": "0xdcb03fb64b5a551a570ddbd1673a0f12a34fedf83c654c42ee0beaa9f2790806",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "cycle-reject-replay",
+      "hash": "0x1a2b1501dec8eebd35fd2b0d0c7a0a80ef45aadcb20176d35083bd1a50b2e4b0",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "cycle-reject-restated",
+      "hash": "0xc712bf54056ce3dc5eb1e770cc4a8df53251e931c28f95a6781bd635235007e6",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "independent_fixed_point_oracle": true,
+  "live_state_match": true
+}

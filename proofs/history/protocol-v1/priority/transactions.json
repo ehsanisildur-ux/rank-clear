@@ -1,0 +1,10 @@
+{
+  "source_sha256": "0953545e00ddbbc5ba31ee60f5526ce6c1784e44603185c4ed932c4bec3ec523",
+  "hashes": {
+    "priority-deployment": "0x35dadb264ca286fe333e4dd1bacde121c131fe68a4a5ecc657256a94b2551070",
+    "priority-reject-hash": "0xa2156abacada726b43fe18a5b02c082196144cfbd11256fff9548a6537df1dae",
+    "priority-ingest": "0xf48974a136e169d5893b83380e651b46eb2f1081708ef79d32506e3da2a3441d",
+    "priority-reject-replay": "0x106710e1835c60ff9a63d8f7a45d61643d02addc7d698e8790a37446e30185d3",
+    "priority-reject-restated": "0x78a58a9fdfcc7ed90837eb0ae8c23d0f32207c706b88711f77ff10b171405ba0"
+  }
+}

@@ -1,0 +1,2698 @@
+[
+  {
+    "snapshot": 0,
+    "firm": 0,
+    "extra": 0,
+    "result": {
+      "extra": 0,
+      "firm": "amber",
+      "result": {
+        "cash": [
+          3,
+          0,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 0,
+    "extra": 1,
+    "result": {
+      "extra": 1,
+      "firm": "amber",
+      "result": {
+        "cash": [
+          4,
+          0,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          false,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            false,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            false,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          false,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 0,
+    "extra": 4,
+    "result": {
+      "extra": 4,
+      "firm": "amber",
+      "result": {
+        "cash": [
+          7,
+          0,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          false,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            false,
+            true,
+            false
+          ],
+          "equity": [
+            3,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            false,
+            true,
+            false
+          ],
+          "equity": [
+            3,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          false,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 0,
+    "extra": 8,
+    "result": {
+      "extra": 8,
+      "firm": "amber",
+      "result": {
+        "cash": [
+          11,
+          0,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          false,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            false,
+            true,
+            false
+          ],
+          "equity": [
+            7,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            false,
+            true,
+            false
+          ],
+          "equity": [
+            7,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          false,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 1,
+    "extra": 0,
+    "result": {
+      "extra": 0,
+      "firm": "bronze",
+      "result": {
+        "cash": [
+          3,
+          0,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 1,
+    "extra": 1,
+    "result": {
+      "extra": 1,
+      "firm": "bronze",
+      "result": {
+        "cash": [
+          3,
+          1,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          false,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            false,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            false,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          false,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 1,
+    "extra": 4,
+    "result": {
+      "extra": 4,
+      "firm": "bronze",
+      "result": {
+        "cash": [
+          3,
+          4,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          false,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            false,
+            false
+          ],
+          "equity": [
+            0,
+            3,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            false,
+            false
+          ],
+          "equity": [
+            0,
+            3,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          false,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 1,
+    "extra": 8,
+    "result": {
+      "extra": 8,
+      "firm": "bronze",
+      "result": {
+        "cash": [
+          3,
+          8,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          false,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            false,
+            false
+          ],
+          "equity": [
+            0,
+            7,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            false,
+            false
+          ],
+          "equity": [
+            0,
+            7,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 4,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          false,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 2,
+    "extra": 0,
+    "result": {
+      "extra": 0,
+      "firm": "jade",
+      "result": {
+        "cash": [
+          3,
+          0,
+          0
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            0
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 2,
+    "extra": 1,
+    "result": {
+      "extra": 1,
+      "firm": "jade",
+      "result": {
+        "cash": [
+          3,
+          0,
+          1
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            1
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            1
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 2,
+    "extra": 4,
+    "result": {
+      "extra": 4,
+      "firm": "jade",
+      "result": {
+        "cash": [
+          3,
+          0,
+          4
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            4
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            4
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  },
+  {
+    "snapshot": 0,
+    "firm": 2,
+    "extra": 8,
+    "result": {
+      "extra": 8,
+      "firm": "jade",
+      "result": {
+        "cash": [
+          3,
+          0,
+          8
+        ],
+        "claims": [
+          [
+            0,
+            2,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "definite_defaults": [
+          true,
+          true,
+          false
+        ],
+        "greatest": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            8
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                2,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "least": {
+          "defaults": [
+            true,
+            true,
+            false
+          ],
+          "equity": [
+            0,
+            0,
+            8
+          ],
+          "incoming": [
+            0,
+            2,
+            0
+          ],
+          "outside_recovery": 3,
+          "payments": [
+            [
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "trace": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "possible_defaults": [
+          true,
+          true,
+          false
+        ],
+        "status": "UNIQUE"
+      },
+      "snapshot": "priority-snapshot"
+    }
+  }
+]

@@ -170,3 +170,19 @@ def test_six_snapshot_bound(direct_vm, direct_deploy):
     direct_vm.clear_mocks()
     with direct_vm.expect_revert('Snapshot log full'): c.ingest(*record()[:2])
     assert c.get_state() == before
+
+
+@pytest.mark.parametrize('invalid_cell', [None, {'quote': 'Unresolved quantity without a value key.'}])
+def test_repair_preserves_unknown_object_and_source_anchor(direct_vm, direct_deploy, invalid_cell):
+    import re
+    c = deploy(direct_deploy)
+    bad = answer('review')
+    bad['cash'][0] = invalid_cell
+    direct_vm.clear_mocks()
+    direct_vm.mock_web(re.escape(record('review')[0]), {'status': 200, 'body': record('review')[2]})
+    direct_vm.mock_llm(r'(?s)^(?!.*Previous invalid response:).*RANKCLEAR-EXTRACT.*', json.dumps(bad))
+    direct_vm.mock_llm(r'(?s).*RANKCLEAR-EXTRACT.*Previous invalid response:.*', json.dumps(answer('review')))
+    direct_vm.mock_llm(r'.*RANKCLEAR-AUDIT.*', json.dumps({'cash': [True] * 3, 'claims': [[True] * 3 for _ in range(3)]}))
+    c.ingest(*record('review')[:2])
+    assert c.get_state()['snapshots'][0]['result'] == {'status': 'REVIEW', 'unknown': ['cash:amber']}
+    assert direct_vm.run_validator() is True

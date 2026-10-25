@@ -1,0 +1,29 @@
+{
+  "configuration": {
+    "firms": [
+      "amber",
+      "bronze",
+      "jade"
+    ],
+    "priorities": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "repository": "ehsanisildur-ux/rank-clear",
+    "unit": "clearing-unit"
+  },
+  "snapshots": []
+}

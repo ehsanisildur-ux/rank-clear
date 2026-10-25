@@ -120,13 +120,20 @@ def extract(source):
         '"quote":"verbatim material excerpt"},...],"claims":[[{"value":integer or '
         'null,"quote":"verbatim material excerpt"},...],...]}. Exactly three cash '
         'items and three rows of three claims in source order. Quotes are contiguous '
-        '12-500 character excerpts supporting the amount or its uncertainty. Read '
+        '12-500 character excerpts supporting the amount or its uncertainty. '
+        'An UNKNOWN quantity MUST remain an object with BOTH keys, for example '
+        '{"value":null,"quote":"a verbatim excerpt explaining the uncertainty"}; '
+        'never replace the entire cell with null or omit its value key. Read '
         'complete text for corrections and negations.\nFull statement: ' + json.dumps(source, sort_keys=True))
     value = model_json(prompt)
     if valid_assessment(value, source):
         return value
-    value = model_json(prompt + '\nRepair schema, all cells and exact quotes. Previous: ' + json.dumps(value, sort_keys=True)[:1600])
+    print('RANKCLEAR_INVALID_EXTRACTION', json.dumps(value, sort_keys=True))
+    value = model_json(prompt + '\nRepair schema, all twelve OBJECT cells and exact quotes. '
+                       'Every cell, including UNKNOWN, has exactly value and quote keys. '
+                       'Previous invalid response: ' + json.dumps(value, sort_keys=True))
     if not valid_assessment(value, source):
+        print('RANKCLEAR_INVALID_REPAIR', json.dumps(value, sort_keys=True))
         fail('[LLM_ERROR] Invalid complete quantities')
     return value
 

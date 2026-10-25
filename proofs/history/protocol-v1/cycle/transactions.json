@@ -1,0 +1,10 @@
+{
+  "source_sha256": "0953545e00ddbbc5ba31ee60f5526ce6c1784e44603185c4ed932c4bec3ec523",
+  "hashes": {
+    "cycle-deployment": "0xdc031fc69df5f530684eb0b56e2f7cbe5945b9dc5d335fdbd794aa5329263d28",
+    "cycle-reject-hash": "0x922c7be1d769ab279c24b94a19b1724d39b6f1dd3d07e275e2991f132ce454ed",
+    "cycle-ingest": "0xdcb03fb64b5a551a570ddbd1673a0f12a34fedf83c654c42ee0beaa9f2790806",
+    "cycle-reject-replay": "0x1a2b1501dec8eebd35fd2b0d0c7a0a80ef45aadcb20176d35083bd1a50b2e4b0",
+    "cycle-reject-restated": "0xc712bf54056ce3dc5eb1e770cc4a8df53251e931c28f95a6781bd635235007e6"
+  }
+}

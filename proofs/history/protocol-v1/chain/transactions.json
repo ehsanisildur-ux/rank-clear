@@ -1,0 +1,10 @@
+{
+  "source_sha256": "0953545e00ddbbc5ba31ee60f5526ce6c1784e44603185c4ed932c4bec3ec523",
+  "hashes": {
+    "chain-deployment": "0xbb2198b9058f70e8fd7379d062d671af3714ad5fdf45351de1afd16120701653",
+    "chain-reject-hash": "0x7c82e499fdb076dae1fd09ef1b7e650aa634e2b98f6a48eda6f3fc2952df53ab",
+    "chain-ingest": "0x2f98675d02ca68805a1069ca80b583f611c63522cf4d84001aadd3696a245b78",
+    "chain-reject-replay": "0x103c4b9cd82edb3bebcfa2eec9b825e5f07f7929fe80bcacee439b1e15f8c705",
+    "chain-reject-restated": "0x308a991facffa7747b19cffe51c1ab75b8f6f901aee50fbb755592e43777d6d4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source_sha256": "0953545e00ddbbc5ba31ee60f5526ce6c1784e44603185c4ed932c4bec3ec523",
+  "source_revision": "c83027ba49e5404498060f8526998adb435edd49",
+  "workflow_revision": "4f3254e03b55ecde038c7c1f131c9f93799e742f",
+  "runs": {"chain": 40171129059, "cycle": 40171134522, "priority": 40171139714, "review": 40171144399},
+  "completed_scenarios": ["chain", "cycle", "priority"],
+  "completed_scenario_receipts": 15,
+  "partial_review_receipts": 3,
+  "review_ingest": "0xed24f6ee992ecb699ff2aea28db8557de147172e764534cad8646f3c5773b730",
+  "review_execution": "ERROR",
+  "review_consensus": "MAJORITY_DISAGREE",
+  "review_error": "[LLM_ERROR] Invalid complete quantities",
+  "review_final_votes": {"agree": 0, "disagree": 3, "idle": 2},
+  "scope": "Historical pre-repair source, excluded from the final-source primary proof set. The failed review ingest is an unexpected consensus failure, not an intended rejection. The original receipt did not expose the invalid model output. The repair prompt now explicitly requires an object containing both value:null and a source quote for UNKNOWN, preserves the full prior response, and emits diagnostics for invalid responses. Strict validation and independent comparison were retained. A fresh review instance will test the revised protocol; no ambiguous send is replayed."
+}
