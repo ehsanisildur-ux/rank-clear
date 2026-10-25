@@ -1,0 +1,122 @@
+[
+  {
+    "id": "chain",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0xD98E26688B3BF7753a032DB8Af06aBA54CDDcaCf",
+    "deployment": "0x1a1272089eab7dd3960f106e0570d977d9732578e42f2ad4a6ba1b65bf780d53",
+    "caller": "0x7aab0b4871be09129b2549af43d473d0e1a5cde6",
+    "args": [
+      "ehsanisildur-ux/rank-clear",
+      [
+        [
+          "outside",
+          "bronze",
+          "jade"
+        ],
+        [
+          "outside",
+          "amber",
+          "jade"
+        ],
+        [
+          "outside",
+          "amber",
+          "bronze"
+        ]
+      ]
+    ],
+    "fixture_revision": "c83027ba49e5404498060f8526998adb435edd49",
+    "source_sha256": "b4fa809caa3dc5d695002ea704ccb73282d7dcc763db4481bd6e3c9aa7575858"
+  },
+  {
+    "id": "cycle",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0xE4a8e08bfae57eEe48F491DebAcabd17A907CfA8",
+    "deployment": "0xe983402342d4fb5997cb514f82d7a046165bfc23773994e86127e00f3c1c4b41",
+    "caller": "0xf7417646c953d12b71435bb3d88f988adddf5d7d",
+    "args": [
+      "ehsanisildur-ux/rank-clear",
+      [
+        [
+          "outside",
+          "bronze",
+          "jade"
+        ],
+        [
+          "outside",
+          "amber",
+          "jade"
+        ],
+        [
+          "outside",
+          "amber",
+          "bronze"
+        ]
+      ]
+    ],
+    "fixture_revision": "c83027ba49e5404498060f8526998adb435edd49",
+    "source_sha256": "b4fa809caa3dc5d695002ea704ccb73282d7dcc763db4481bd6e3c9aa7575858"
+  },
+  {
+    "id": "priority",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x47dA18849B840Dc06816bd99d2A5377f537F0511",
+    "deployment": "0x81d4bcf4120e78dfcae8996a996b272777b7f4ff3e05fbfb3d092647ec8f8653",
+    "caller": "0xc0fa2a2a0a5e14f5d753c3b115149730c89a9371",
+    "args": [
+      "ehsanisildur-ux/rank-clear",
+      [
+        [
+          "bronze",
+          "jade",
+          "outside"
+        ],
+        [
+          "amber",
+          "jade",
+          "outside"
+        ],
+        [
+          "amber",
+          "bronze",
+          "outside"
+        ]
+      ]
+    ],
+    "fixture_revision": "c83027ba49e5404498060f8526998adb435edd49",
+    "source_sha256": "b4fa809caa3dc5d695002ea704ccb73282d7dcc763db4481bd6e3c9aa7575858"
+  },
+  {
+    "id": "review",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0xbBf4b21502Fb1aA37aC31016a7f6d86F1bE5C0fF",
+    "deployment": "0xf96be68c966ba26348338506b84b1316638546a79da0b3f3020e0979fa9848ae",
+    "caller": "0xa9b3ffce0835c20a9a3173ef61e3c8b7065451d3",
+    "args": [
+      "ehsanisildur-ux/rank-clear",
+      [
+        [
+          "outside",
+          "bronze",
+          "jade"
+        ],
+        [
+          "outside",
+          "amber",
+          "jade"
+        ],
+        [
+          "outside",
+          "amber",
+          "bronze"
+        ]
+      ]
+    ],
+    "fixture_revision": "c83027ba49e5404498060f8526998adb435edd49",
+    "source_sha256": "b4fa809caa3dc5d695002ea704ccb73282d7dcc763db4481bd6e3c9aa7575858"
+  }
+]

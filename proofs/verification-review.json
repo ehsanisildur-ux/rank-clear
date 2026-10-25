@@ -1,0 +1,85 @@
+{
+  "scope": "review",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-25T07:34:26.551Z",
+  "source_sha256": "b4fa809caa3dc5d695002ea704ccb73282d7dcc763db4481bd6e3c9aa7575858",
+  "instances": [
+    {
+      "id": "review",
+      "contract": "0xbBf4b21502Fb1aA37aC31016a7f6d86F1bE5C0fF",
+      "status": "REVIEW",
+      "stress_queries": 0
+    }
+  ],
+  "transactions": [
+    {
+      "label": "review-deployment",
+      "hash": "0xf96be68c966ba26348338506b84b1316638546a79da0b3f3020e0979fa9848ae",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "review-reject-hash",
+      "hash": "0xf17050bb2ed3ce1fc6f6d093c9a07a2d5a8a1c819dd7dfbd60cac60451f2472c",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "review-ingest",
+      "hash": "0xfcd932008633cc6c06e48ea6167dfa0528cee7e61aa2ccc3477555183fd909ac",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "review-reject-replay",
+      "hash": "0xa29aa4c8848372baa406f0fbf24438efc5b6892d20d7857de1faf3e3895a52e9",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "review-reject-restated",
+      "hash": "0x79c103e01532680b4a4186ca3d851858089e48a3dbac2983c9db9daa0c0867fe",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "independent_fixed_point_oracle": true,
+  "live_state_match": true
+}

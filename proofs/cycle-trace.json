@@ -1,0 +1,1688 @@
+[
+  {
+    "label": "cycle-reject-hash",
+    "method": "ingest",
+    "args": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json",
+      "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    ],
+    "error": "[EXTERNAL] Statement commitment mismatch",
+    "transaction": "0x24fbc712a9cd9f1ac9e21bedf60c9bb4bb500033a1366706bbdca806ea270b23",
+    "state_before": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": []
+    },
+    "state": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": []
+    }
+  },
+  {
+    "label": "cycle-ingest",
+    "method": "ingest",
+    "args": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json",
+      "bd183982eb345e06289d6eb812f68568ce48b788361321c6fc80b74f3daa0af2"
+    ],
+    "transaction": "0x9ba0d5fa1cdd68167a0b0c32554d1a061435960fdeabdf5e5b6cd9af81c6ba30",
+    "state_before": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": []
+    },
+    "state": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": [
+        {
+          "assessment": {
+            "cash": [
+              {
+                "quote": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              }
+            ],
+            "claims": [
+              [
+                {
+                  "quote": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ]
+            ]
+          },
+          "result": {
+            "cash": [
+              0,
+              0,
+              0
+            ],
+            "claims": [
+              [
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "definite_defaults": [
+              false,
+              false,
+              false
+            ],
+            "greatest": {
+              "defaults": [
+                false,
+                false,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                4,
+                4,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  4,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    4,
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "least": {
+              "defaults": [
+                true,
+                true,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                0,
+                0,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "possible_defaults": [
+              true,
+              true,
+              false
+            ],
+            "status": "MULTIPLE"
+          },
+          "sha256": "bd183982eb345e06289d6eb812f68568ce48b788361321c6fc80b74f3daa0af2",
+          "source": {
+            "firms": [
+              {
+                "cash": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "claims": [
+                  {
+                    "creditor": "bronze",
+                    "text": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "amber"
+              },
+              {
+                "cash": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "bronze"
+              },
+              {
+                "cash": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "bronze",
+                    "text": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "jade"
+              }
+            ],
+            "snapshot": "cycle-snapshot",
+            "unit": "clearing-unit"
+          },
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json"
+        }
+      ]
+    }
+  },
+  {
+    "label": "cycle-reject-replay",
+    "method": "ingest",
+    "args": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json",
+      "bd183982eb345e06289d6eb812f68568ce48b788361321c6fc80b74f3daa0af2"
+    ],
+    "error": "[EXPECTED] Statement already recorded",
+    "transaction": "0x657ccf691d45046437c6c376c3118a26e5a8b9fddb720f2bef81ea7df91cb078",
+    "state_before": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": [
+        {
+          "assessment": {
+            "cash": [
+              {
+                "quote": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              }
+            ],
+            "claims": [
+              [
+                {
+                  "quote": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ]
+            ]
+          },
+          "result": {
+            "cash": [
+              0,
+              0,
+              0
+            ],
+            "claims": [
+              [
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "definite_defaults": [
+              false,
+              false,
+              false
+            ],
+            "greatest": {
+              "defaults": [
+                false,
+                false,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                4,
+                4,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  4,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    4,
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "least": {
+              "defaults": [
+                true,
+                true,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                0,
+                0,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "possible_defaults": [
+              true,
+              true,
+              false
+            ],
+            "status": "MULTIPLE"
+          },
+          "sha256": "bd183982eb345e06289d6eb812f68568ce48b788361321c6fc80b74f3daa0af2",
+          "source": {
+            "firms": [
+              {
+                "cash": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "claims": [
+                  {
+                    "creditor": "bronze",
+                    "text": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "amber"
+              },
+              {
+                "cash": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "bronze"
+              },
+              {
+                "cash": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "bronze",
+                    "text": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "jade"
+              }
+            ],
+            "snapshot": "cycle-snapshot",
+            "unit": "clearing-unit"
+          },
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json"
+        }
+      ]
+    },
+    "state": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": [
+        {
+          "assessment": {
+            "cash": [
+              {
+                "quote": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              }
+            ],
+            "claims": [
+              [
+                {
+                  "quote": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ]
+            ]
+          },
+          "result": {
+            "cash": [
+              0,
+              0,
+              0
+            ],
+            "claims": [
+              [
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "definite_defaults": [
+              false,
+              false,
+              false
+            ],
+            "greatest": {
+              "defaults": [
+                false,
+                false,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                4,
+                4,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  4,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    4,
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "least": {
+              "defaults": [
+                true,
+                true,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                0,
+                0,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "possible_defaults": [
+              true,
+              true,
+              false
+            ],
+            "status": "MULTIPLE"
+          },
+          "sha256": "bd183982eb345e06289d6eb812f68568ce48b788361321c6fc80b74f3daa0af2",
+          "source": {
+            "firms": [
+              {
+                "cash": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "claims": [
+                  {
+                    "creditor": "bronze",
+                    "text": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "amber"
+              },
+              {
+                "cash": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "bronze"
+              },
+              {
+                "cash": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "bronze",
+                    "text": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "jade"
+              }
+            ],
+            "snapshot": "cycle-snapshot",
+            "unit": "clearing-unit"
+          },
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json"
+        }
+      ]
+    }
+  },
+  {
+    "label": "cycle-reject-restated",
+    "method": "ingest",
+    "args": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle-restated.json",
+      "8f9ecca1591f1b8274255384a5b8efeaa86b3573f9d8fc996358f8fd18c13bba"
+    ],
+    "error": "[EXPECTED] Snapshot ID already recorded",
+    "transaction": "0x96b4a406982b6656ebba734b7a32347d01e6e9971a2d9962f08f513200c26118",
+    "state_before": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": [
+        {
+          "assessment": {
+            "cash": [
+              {
+                "quote": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              }
+            ],
+            "claims": [
+              [
+                {
+                  "quote": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ]
+            ]
+          },
+          "result": {
+            "cash": [
+              0,
+              0,
+              0
+            ],
+            "claims": [
+              [
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "definite_defaults": [
+              false,
+              false,
+              false
+            ],
+            "greatest": {
+              "defaults": [
+                false,
+                false,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                4,
+                4,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  4,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    4,
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "least": {
+              "defaults": [
+                true,
+                true,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                0,
+                0,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "possible_defaults": [
+              true,
+              true,
+              false
+            ],
+            "status": "MULTIPLE"
+          },
+          "sha256": "bd183982eb345e06289d6eb812f68568ce48b788361321c6fc80b74f3daa0af2",
+          "source": {
+            "firms": [
+              {
+                "cash": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "claims": [
+                  {
+                    "creditor": "bronze",
+                    "text": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "amber"
+              },
+              {
+                "cash": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "bronze"
+              },
+              {
+                "cash": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "bronze",
+                    "text": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "jade"
+              }
+            ],
+            "snapshot": "cycle-snapshot",
+            "unit": "clearing-unit"
+          },
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json"
+        }
+      ]
+    },
+    "state": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": [
+        {
+          "assessment": {
+            "cash": [
+              {
+                "quote": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              },
+              {
+                "quote": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "value": 0
+              }
+            ],
+            "claims": [
+              [
+                {
+                  "quote": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.",
+                  "value": 4
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ],
+              [
+                {
+                  "quote": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                },
+                {
+                  "quote": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.",
+                  "value": 0
+                }
+              ]
+            ]
+          },
+          "result": {
+            "cash": [
+              0,
+              0,
+              0
+            ],
+            "claims": [
+              [
+                0,
+                4,
+                0,
+                0
+              ],
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "definite_defaults": [
+              false,
+              false,
+              false
+            ],
+            "greatest": {
+              "defaults": [
+                false,
+                false,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                4,
+                4,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  4,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    4,
+                    0,
+                    0
+                  ],
+                  [
+                    4,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "least": {
+              "defaults": [
+                true,
+                true,
+                false
+              ],
+              "equity": [
+                0,
+                0,
+                0
+              ],
+              "incoming": [
+                0,
+                0,
+                0
+              ],
+              "outside_recovery": 0,
+              "payments": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "trace": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ]
+            },
+            "possible_defaults": [
+              true,
+              true,
+              false
+            ],
+            "status": "MULTIPLE"
+          },
+          "sha256": "bd183982eb345e06289d6eb812f68568ce48b788361321c6fc80b74f3daa0af2",
+          "source": {
+            "firms": [
+              {
+                "cash": "Final correction for amber: external unrestricted cash available now is 0 clearing-units. A withdrawn draft listed seven. Receivables of six clearing-units and an unused credit line of eight are excluded from available cash.",
+                "claims": [
+                  {
+                    "creditor": "bronze",
+                    "text": "The final outstanding obligation due now from amber to bronze is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "amber"
+              },
+              {
+                "cash": "The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "The final outstanding obligation due now from bronze to amber is 4 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims."
+                  },
+                  {
+                    "creditor": "jade",
+                    "text": "Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: bronze owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "bronze"
+              },
+              {
+                "cash": "The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.",
+                "claims": [
+                  {
+                    "creditor": "amber",
+                    "text": "Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "bronze",
+                    "text": "Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  },
+                  {
+                    "creditor": "outside",
+                    "text": "Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived."
+                  }
+                ],
+                "firm": "jade"
+              }
+            ],
+            "snapshot": "cycle-snapshot",
+            "unit": "clearing-unit"
+          },
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/cycle.json"
+        }
+      ]
+    }
+  }
+]

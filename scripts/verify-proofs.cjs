@@ -44,6 +44,7 @@ async function main(){
  assert(hashes.size===5*suite.length&&Object.keys(journal.hashes).length===hashes.size&&(selected!=='all'||hashes.size===20),'Exactly the planned primary receipt set');
  summary.transaction_calldata_checked=true;summary.rejection_bytes_checked=true;summary.independent_fixed_point_oracle=true;
  if(!offline){summary.live_state_match=true;save(selected==='all'?'verification':'verification-'+selected,summary);}
+ else save('offline-verification',summary);
  console.log(JSON.stringify(summary,null,2));
 }
 main().catch(e=>{console.error(e.stack);process.exitCode=1;});

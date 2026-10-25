@@ -1,0 +1,34 @@
+{
+  "repository": "ehsanisildur-ux/rank-clear",
+  "archives": [
+    {
+      "workflow_run": 40172820719,
+      "artifact_id": 12590529708,
+      "bytes": 55155,
+      "github_reported_zip_digest": "sha256:ab3b7e8cbbb94d793267ac915248513f5198bacbbfa31252a1f57a50ce454eb0",
+      "head_sha": "e796ad28c2e6adf9e130a306f8daf712a6648acb"
+    },
+    {
+      "workflow_run": 40172824715,
+      "artifact_id": 12590639585,
+      "bytes": 54804,
+      "github_reported_zip_digest": "sha256:018379c19bd1b93bd7f47d373fa9cce6c8f86bd33427e5b6c7d31f3bc6b75418",
+      "head_sha": "e796ad28c2e6adf9e130a306f8daf712a6648acb"
+    },
+    {
+      "workflow_run": 40172828815,
+      "artifact_id": 12590604492,
+      "bytes": 55509,
+      "github_reported_zip_digest": "sha256:a9b723531b443f62bbdc50c9f171adb72954a738c342264d4d543e0e9fcf403e",
+      "head_sha": "e796ad28c2e6adf9e130a306f8daf712a6648acb"
+    },
+    {
+      "workflow_run": 40172832543,
+      "artifact_id": 12591266768,
+      "bytes": 53445,
+      "github_reported_zip_digest": "sha256:2dc662ef5a98294095671e928d460f192d14875afd4017a1f5ae01cc35c8503f",
+      "head_sha": "e796ad28c2e6adf9e130a306f8daf712a6648acb"
+    }
+  ],
+  "note": "ZIP digests are GitHub-reported metadata. Extracted receipts, signed calldata, source, final states and stress grids are independently checked by the committed verifier."
+}

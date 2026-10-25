@@ -1,0 +1,26 @@
+{
+  "repository": "ehsanisildur-ux/rank-clear",
+  "source_sha256": "b4fa809caa3dc5d695002ea704ccb73282d7dcc763db4481bd6e3c9aa7575858",
+  "runs": [
+    {
+      "scenario": "chain",
+      "workflow_run": "40172820719",
+      "url": "https://github.com/ehsanisildur-ux/rank-clear/actions/runs/40172820719"
+    },
+    {
+      "scenario": "cycle",
+      "workflow_run": "40172824715",
+      "url": "https://github.com/ehsanisildur-ux/rank-clear/actions/runs/40172824715"
+    },
+    {
+      "scenario": "priority",
+      "workflow_run": "40172828815",
+      "url": "https://github.com/ehsanisildur-ux/rank-clear/actions/runs/40172828815"
+    },
+    {
+      "scenario": "review",
+      "workflow_run": "40172832543",
+      "url": "https://github.com/ehsanisildur-ux/rank-clear/actions/runs/40172832543"
+    }
+  ]
+}

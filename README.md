@@ -15,3 +15,9 @@ node --test tests/rpc-preflight.test.cjs
 ```
 
 Classical clearing fixed-point ideas are credited in the architecture. Generic CLI transport code retains its original MIT attribution; the contract and clearing tests are new.
+
+## Verified StudioNet deployment
+
+[Primary contract explorer](https://explorer-studio.genlayer.com/address/0xD98E26688B3BF7753a032DB8Af06aBA54CDDcaCf) · [20 finalized scenario receipts](proofs/README.md) · [Ready submission text](docs/submission.md).
+
+GenVM lint, 598 direct tests and seven transport tests pass. Four live suites include eight successes, twelve exact expected rejections and 36 independently checked stress views. Full source, signatures, votes and final state match fresh onchain reads.
