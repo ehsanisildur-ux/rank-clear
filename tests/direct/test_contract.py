@@ -92,7 +92,7 @@ def test_validator_independently_rejects_each_quantity_disagreement(direct_vm, d
     ingest(c, direct_vm)
     changed = answer()
     cell = changed['cash'][position] if position < 3 else changed['claims'][(position - 3) // 3][(position - 3) % 3]
-    cell['value'] = None if cell['value'] is not None else 0
+    cell['value'] = 'UNKNOWN' if cell['value'] != 'UNKNOWN' else 0
     mocks(direct_vm, proposed=changed)
     assert direct_vm.run_validator() is False
 
@@ -115,7 +115,7 @@ def test_validator_fetches_real_source_not_just_leader_hash(direct_vm, direct_de
     assert direct_vm.run_validator() is False
 
 
-@pytest.mark.parametrize('bad', [True, 1.0, '2', -1, 9])
+@pytest.mark.parametrize('bad', [True, 1.0, '2', -1, 9, None])
 def test_malformed_numeric_outputs_fail_without_append(direct_vm, direct_deploy, bad):
     c = deploy(direct_deploy)
     a = answer()

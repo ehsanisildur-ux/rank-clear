@@ -12,6 +12,8 @@ Available external cash excludes receivables, promised injections and unused cre
 
 ## Clearing and bounds
 
+UNKNOWN is represented by the explicit string `"UNKNOWN"`, never JSON null or a missing key. The live null protocol produced omitted value keys; receipt diagnostics preserve that failure. A missing key or malformed cell remains a model error, not an inferred UNKNOWN. Validators must independently derive the same explicit sentinel and substantively audit it before a REVIEW snapshot can be stored.
+
 For payment matrix P, available_i = cash_i + sum_j P[j,i]. F(P)[i] fills creditor claims in the configured order using that availability; self-payments are always zero, and outside never pays back. Both endpoint sequences are componentwise monotone. Every strict step changes an integer coordinate; sum(claims) bounds strict iterations. A final F(P)=P check is mandatory. Every fixed point lies between the two endpoints. Both endpoints themselves are fixed points, so each individual payment bound is sharp. These are not independently combinable bounds or an enumeration of all intermediate fixed points.
 
 The least endpoint is constructible by repeated clearing from no payments. The greatest endpoint may rely on circular simultaneous book entries and is not a claim of prefunded liquidity. Senior claims receive funds before junior claims at both endpoints. Equity is cash plus incoming minus outgoing; external recovery plus total equity equals total external cash. A firm definitely defaults if its greatest outgoing payment is below nominal debt; it possibly defaults if its least payment is below nominal debt. Zero-debt firms do not default.

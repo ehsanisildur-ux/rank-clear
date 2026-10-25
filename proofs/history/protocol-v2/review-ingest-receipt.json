@@ -1,0 +1,1842 @@
+{
+  "hash": "0x988c38eefd7152554707998ad6708512e2e156c142359d7eb28df19cfbf7fddb",
+  "from_address": "0x32DeCF0d73E719a4A4434043D357aC56290cFc10",
+  "to_address": "0x1FA8af533c8b115fd8866F1AcFbDE8320ed8c36B",
+  "data": {
+    "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0"
+  },
+  "value": 0,
+  "type": 2,
+  "status": "FINALIZED",
+  "result": 7,
+  "consensus_data": {
+    "votes": {
+      "0x007d6451555Df7765c707284F844137927aE4e5E": "disagree",
+      "0x045291B293B9D68969c18B6637A8258038cf787A": "disagree",
+      "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "disagree",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf": "idle",
+      "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "idle"
+    },
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "disagree",
+        "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+        "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x007d6451555Df7765c707284F844137927aE4e5E/anthropic/claude-sonnet-4.6": {
+                "input": 2450,
+                "total": 3633,
+                "output": 1183
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 9,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2,
+            "NOTIFY_NONDET_DISAGREEMENT": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1788.651869771,
+          "host_loop_enter_wait_ms": 5,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 2,
+            "REMAINING_FUEL_AS_GEN": 0,
+            "NOTIFY_NONDET_DISAGREEMENT": 0
+          },
+          "host_total_handling_time_ms": 2,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 4
+          },
+          "host_first_method_received_s": 1788.651985103,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": 0,
+        "processing_time": 11985,
+        "execution_result": "ERROR",
+        "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "disagree",
+        "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+        "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x045291B293B9D68969c18B6637A8258038cf787A/policy:prd-gpt-5-4": {
+                "input": 2239,
+                "total": 3157,
+                "output": 918
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 9,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2,
+            "NOTIFY_NONDET_DISAGREEMENT": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1788.651262325,
+          "host_loop_enter_wait_ms": 4,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 2,
+            "REMAINING_FUEL_AS_GEN": 0,
+            "NOTIFY_NONDET_DISAGREEMENT": 0
+          },
+          "host_total_handling_time_ms": 2,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 3
+          },
+          "host_first_method_received_s": 1788.651338297,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": 0,
+        "processing_time": 6959,
+        "execution_result": "ERROR",
+        "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "disagree",
+        "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+        "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8/policy:prd-sonnet": {
+                "input": 2251,
+                "total": 3155,
+                "output": 904
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 9,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2,
+            "NOTIFY_NONDET_DISAGREEMENT": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1795.549665243,
+          "host_loop_enter_wait_ms": 6902,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 2,
+            "REMAINING_FUEL_AS_GEN": 0,
+            "NOTIFY_NONDET_DISAGREEMENT": 0
+          },
+          "host_total_handling_time_ms": 2,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 6902
+          },
+          "host_first_method_received_s": 1795.549907659,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": 0,
+        "processing_time": 17274,
+        "execution_result": "ERROR",
+        "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      }
+    ],
+    "leader_receipt": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+        "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+        "gas_used": 0,
+        "eq_outputs": {
+          "0": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw=="
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0xe06A34A1eBd398AF3399d08593B8c3C433CdD947/policy:prd-gpt-5-4": {
+                "input": 2239,
+                "total": 3157,
+                "output": 918
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 9,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1779.43527757,
+          "host_loop_enter_wait_ms": 1917,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 2,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 2,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 1916
+          },
+          "host_first_method_received_s": 1779.435347392,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 9941,
+        "execution_result": "ERROR",
+        "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      }
+    ]
+  },
+  "gaslimit": 2,
+  "nonce": 2,
+  "r": null,
+  "s": null,
+  "v": null,
+  "created_at": "2026-10-25T07:20:18.478887+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x32DeCF0d73E719a4A4434043D357aC56290cFc10",
+  "triggered_by": null,
+  "triggered_on": null,
+  "triggered_transactions": [],
+  "appealed": false,
+  "timestamp_awaiting_finalization": 1792912973,
+  "appeal_failed": 0,
+  "appeal_undetermined": false,
+  "consensus_history": {
+    "consensus_results": [
+      {
+        "monitoring": {
+          "PENDING": 1792912820.5695655,
+          "PROPOSING": 1792912820.612863,
+          "REVEALING": 1792912846.838144,
+          "COMMITTING": 1792912830.2699933,
+          "PROPOSING.LEADER.RUN_END": 1792912830.1784964,
+          "PROPOSING.LEADER.RUN_START": 1792912820.6606739,
+          "PROPOSING.LEADER.EXEC_START": 1792912820.6517003,
+          "PROPOSING.VALIDATORS_SELECTED": 1792912820.6365535,
+          "COMMITTING.VALIDATORS_PREPARED": 1792912830.312455,
+          "COMMITTING.VALIDATOR_0.RUN_END": 1792912839.6629748,
+          "COMMITTING.VALIDATOR_1.RUN_END": 1792912846.791376,
+          "COMMITTING.VALIDATOR_4.RUN_END": 1792912839.326093,
+          "PROPOSING.TRANSACTION_EXECUTED": 1792912830.201917,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1792912830.3828764,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1792912830.4139326,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1792912830.4382918,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1792912830.462193,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1792912830.4855847,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1792912820.6644619,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1792912830.190791,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1792912830.3792887,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1792912830.4096289,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1792912830.4348457,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1792912830.458696,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1792912830.4821851,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1792912846.8028946,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1792912830.1545343,
+          "COMMITTING.VALIDATOR_0_END.attempt_0": 1792912839.6706338,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1792912846.7989445,
+          "COMMITTING.VALIDATOR_4_END.attempt_0": 1792912839.334235,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1792912830.3410735,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1792912846.806441,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1792912830.3864539,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1792912839.666326,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1792912830.3513615,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1792912830.4173548,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1792912846.7946804,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1792912830.3603392,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1792912830.441571,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1792912830.3645191,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1792912830.4654548,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1792912830.3699431,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1792912830.488961,
+          "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1792912839.3297226,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1792912830.374949,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1792912820.6779103,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1792912820.674569,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1792912820.6454546,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1792912820.6678965,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1792912820.6711297,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1792912839.6591382,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1792912846.787253,
+          "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1792912839.322127,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1792912830.40609,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1792912830.4024494,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1792912830.431004,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1792912830.4276547,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1792912830.4552088,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1792912830.451703,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1792912830.4784985,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1792912830.4752235,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1792912830.5023696,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1792912830.4990063,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1792912830.3896203,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1792912830.398604,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1792912830.4208732,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1792912830.4243262,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1792912830.445053,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1792912830.448337,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1792912830.4686918,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1792912830.4719872,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1792912830.4923182,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1792912830.4956427
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "eq_outputs": {
+              "0": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw=="
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a/openai/gpt-5.4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1653.560233133,
+              "host_loop_enter_wait_ms": 3,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 1,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 1,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 2
+              },
+              "host_first_method_received_s": 1653.560309346,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 9472,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a/openai/gpt-5.4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1663.38662177,
+              "host_loop_enter_wait_ms": 5,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 1,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 4
+              },
+              "host_first_method_received_s": 1663.386689382,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 9249,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING"
+        ],
+        "consensus_round": "Leader Rotation",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xe06A34A1eBd398AF3399d08593B8c3C433CdD947/policy:prd-gpt-5-4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1672.212961678,
+              "host_loop_enter_wait_ms": 8831,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 1,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 1,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 8828
+              },
+              "host_first_method_received_s": 1672.213184504,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 16352,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xCe0B66448435cA53665C954705Abd753515594Cf/policy:prd-qwen": {
+                    "input": 2261,
+                    "total": 3411,
+                    "output": 1150
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1663.387119492,
+              "host_loop_enter_wait_ms": 4,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 1,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 1,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 3
+              },
+              "host_first_method_received_s": 1663.387275066,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 8815,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          }
+        ]
+      },
+      {
+        "monitoring": {
+          "PROPOSING": 1792912846.879364,
+          "REVEALING": 1792912887.664375,
+          "COMMITTING": 1792912867.4862711,
+          "PROPOSING.LEADER.RUN_END": 1792912867.4554553,
+          "PROPOSING.LEADER.RUN_START": 1792912846.898719,
+          "PROPOSING.LEADER.EXEC_START": 1792912846.8950953,
+          "PROPOSING.VALIDATORS_SELECTED": 1792912846.8879275,
+          "COMMITTING.VALIDATORS_PREPARED": 1792912867.4950385,
+          "COMMITTING.VALIDATOR_0.RUN_END": 1792912878.5311944,
+          "COMMITTING.VALIDATOR_2.RUN_END": 1792912866.9842997,
+          "COMMITTING.VALIDATOR_3.RUN_END": 1792912880.05044,
+          "COMMITTING.VALIDATOR_4.RUN_END": 1792912887.4493883,
+          "PROPOSING.TRANSACTION_EXECUTED": 1792912867.4642305,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1792912867.5261014,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1792912867.5584354,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1792912867.5850508,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1792912867.6102407,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1792912867.635019,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1792912846.9023485,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1792912867.459339,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1792912867.5223126,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1792912867.5539248,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1792912867.581514,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1792912867.6067772,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1792912867.631575,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1792912887.5214903,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1792912867.4461515,
+          "COMMITTING.VALIDATOR_0_END.attempt_0": 1792912878.5818183,
+          "COMMITTING.VALIDATOR_3_END.attempt_0": 1792912880.0596619,
+          "COMMITTING.VALIDATOR_4_END.attempt_0": 1792912887.4831138,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1792912867.4988225,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1792912887.5409486,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1792912867.529799,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1792912878.5555606,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1792912867.5024912,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1792912867.563218,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1792912867.506488,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1792912867.588525,
+          "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1792912866.9880586,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1792912867.5112896,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1792912867.6138353,
+          "COMMITTING.VALIDATOR_3.RECEIPT_CREATED": 1792912880.0547874,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1792912867.5149126,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1792912867.6384857,
+          "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1792912887.4547281,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1792912867.5186794,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1792912846.9169939,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1792912846.9134073,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1792912846.8915827,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1792912846.9061785,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1792912846.909771,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1792912878.5021915,
+          "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1792912866.9798825,
+          "COMMITTING.VALIDATOR_3.EXECUTION_FINISHED": 1792912880.045535,
+          "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1792912887.4098878,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1792912867.5487578,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1792912867.5441782,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1792912867.5777054,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1792912867.5740197,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1792912867.6026757,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1792912867.5992029,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1792912867.6278584,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1792912867.6244857,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1792912867.6527376,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1792912867.6492167,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1792912867.5345926,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1792912867.5394816,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1792912867.5668917,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1792912867.5704648,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1792912867.5921032,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1792912867.5956078,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1792912867.6174428,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1792912867.6209934,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1792912867.6421943,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1792912867.6457403
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "eq_outputs": {
+              "0": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw=="
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9/policy:prd-minimax": {
+                    "input": 2602,
+                    "total": 4007,
+                    "output": 1405
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1689.055435507,
+              "host_loop_enter_wait_ms": 9259,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 1,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 1,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 9259
+              },
+              "host_first_method_received_s": 1689.055503269,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 20524,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9/policy:prd-minimax": {
+                    "input": 2602,
+                    "total": 4048,
+                    "output": 1446
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1700.537051365,
+              "host_loop_enter_wait_ms": 5,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 4
+              },
+              "host_first_method_received_s": 1700.537209089,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 10948,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING"
+        ],
+        "consensus_round": "Leader Rotation",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x007d6451555Df7765c707284F844137927aE4e5E/anthropic/claude-sonnet-4.6": {
+                    "input": 2450,
+                    "total": 3718,
+                    "output": 1268
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1700.537011434,
+              "host_loop_enter_wait_ms": 4,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 3,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 3,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 3
+              },
+              "host_first_method_received_s": 1700.537119416,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 12413,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xe06A34A1eBd398AF3399d08593B8c3C433CdD947/policy:prd-gpt-5-4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1712.939009278,
+              "host_loop_enter_wait_ms": 12406,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_0_error": {
+                "attempt": 0,
+                "error_type": "SocketTimeoutError",
+                "will_retry": true,
+                "duration_ms": 10002
+              },
+              "manager_run_attempt_success": {
+                "attempt": 1,
+                "duration_ms": 1403
+              },
+              "host_first_method_received_s": 1712.939164752,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 19753,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          }
+        ]
+      },
+      {
+        "monitoring": {
+          "PROPOSING": 1792912887.7756312,
+          "REVEALING": 1792912944.5519545,
+          "COMMITTING": 1792912926.1695392,
+          "PROPOSING.LEADER.RUN_END": 1792912926.1441183,
+          "PROPOSING.LEADER.RUN_START": 1792912887.9105144,
+          "PROPOSING.LEADER.EXEC_START": 1792912887.881329,
+          "PROPOSING.VALIDATORS_SELECTED": 1792912887.8326066,
+          "COMMITTING.VALIDATORS_PREPARED": 1792912926.1786876,
+          "COMMITTING.VALIDATOR_1.RUN_END": 1792912934.4020662,
+          "COMMITTING.VALIDATOR_2.RUN_END": 1792912944.4984622,
+          "COMMITTING.VALIDATOR_4.RUN_END": 1792912934.1453834,
+          "PROPOSING.TRANSACTION_EXECUTED": 1792912926.1526763,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1792912926.2098966,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1792912926.23867,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1792912926.2666662,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1792912926.293637,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1792912926.3214672,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1792912887.9391463,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1792912926.148174,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1792912926.2063293,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1792912926.2343946,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1792912926.2629192,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1792912926.289591,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1792912926.3174067,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1792912944.5115597,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1792912926.139099,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1792912934.4112847,
+          "COMMITTING.VALIDATOR_2_END.attempt_0": 1792912944.507147,
+          "COMMITTING.VALIDATOR_4_END.attempt_0": 1792912934.1543567,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1792912926.1826234,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1792912944.5156713,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1792912926.214051,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1792912926.1864905,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1792912926.2426033,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1792912934.4059174,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1792912926.190495,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1792912926.2705548,
+          "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1792912944.5026386,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1792912926.194413,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1792912926.2973328,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1792912926.1980903,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1792912926.3253684,
+          "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1792912934.1493514,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1792912926.2021978,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1792912888.0613155,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1792912888.0311437,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1792912887.8511975,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1792912887.9716897,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1792912888.0013275,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1792912934.397225,
+          "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1792912944.494419,
+          "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1792912934.1408424,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1792912926.2299862,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1792912926.2259128,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1792912926.2585702,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1792912926.2545357,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1792912926.285652,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1792912926.2818272,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1792912926.3131335,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1792912926.3090625,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1792912926.3414302,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1792912926.3372774,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1792912926.2180676,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1792912926.2220926,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1792912926.2466476,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1792912926.250598,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1792912926.2741826,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1792912926.2779062,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1792912926.301206,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1792912926.3052418,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1792912926.3291817,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1792912926.3332603
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "eq_outputs": {
+              "0": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw=="
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE/policy:prd-gpt-oss": {
+                    "input": 2341,
+                    "total": 3740,
+                    "output": 1399
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1729.237583007,
+              "host_loop_enter_wait_ms": 8277,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 8277
+              },
+              "host_first_method_received_s": 1729.237652979,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 38053,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING"
+        ],
+        "consensus_round": "Leader Rotation",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xe06A34A1eBd398AF3399d08593B8c3C433CdD947/policy:prd-gpt-5-4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1759.225934096,
+              "host_loop_enter_wait_ms": 5,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 1,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 3
+              },
+              "host_first_method_received_s": 1759.226001658,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 8133,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xCe0B66448435cA53665C954705Abd753515594Cf/policy:prd-qwen": {
+                    "input": 2261,
+                    "total": 3411,
+                    "output": 1150
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1767.290783965,
+              "host_loop_enter_wait_ms": 8069,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 8069
+              },
+              "host_first_method_received_s": 1767.291022841,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 18204,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x045291B293B9D68969c18B6637A8258038cf787A/policy:prd-gpt-5-4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1759.302584985,
+              "host_loop_enter_wait_ms": 80,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 79
+              },
+              "host_first_method_received_s": 1759.302667717,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 7794,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          }
+        ]
+      },
+      {
+        "monitoring": {
+          "PROPOSING": 1792912944.5974262,
+          "REVEALING": 1792912973.1998792,
+          "COMMITTING": 1792912954.844212,
+          "UNDETERMINED": 1792912973.3007538,
+          "PROPOSING.LEADER.RUN_END": 1792912954.623138,
+          "PROPOSING.LEADER.RUN_START": 1792912944.6189673,
+          "PROPOSING.LEADER.EXEC_START": 1792912944.614655,
+          "PROPOSING.VALIDATORS_SELECTED": 1792912944.6066236,
+          "COMMITTING.VALIDATORS_PREPARED": 1792912954.9228458,
+          "COMMITTING.VALIDATOR_0.RUN_END": 1792912954.3793063,
+          "COMMITTING.VALIDATOR_1.RUN_END": 1792912967.567064,
+          "COMMITTING.VALIDATOR_2.RUN_END": 1792912962.660793,
+          "COMMITTING.VALIDATOR_3.RUN_END": 1792912973.0316403,
+          "PROPOSING.TRANSACTION_EXECUTED": 1792912954.710178,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1792912955.2190626,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1792912955.4687831,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1792912955.5940967,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1792912955.704654,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1792912955.7448401,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1792912944.6229315,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1792912954.6591446,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1792912955.1791384,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1792912955.4497442,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1792912955.5754294,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1792912955.6960466,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1792912955.7386856,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1792912973.1215012,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1792912954.5846777,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1792912967.5763705,
+          "COMMITTING.VALIDATOR_2_END.attempt_0": 1792912962.670342,
+          "COMMITTING.VALIDATOR_3_END.attempt_0": 1792912973.0922754,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1792912954.961476,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1792912973.1354825,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1792912955.259202,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1792912954.429141,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1792912955.0011501,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1792912955.4883182,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1792912967.571545,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1792912955.0415137,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1792912955.60374,
+          "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1792912962.664763,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1792912955.0610707,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1792912955.7090788,
+          "COMMITTING.VALIDATOR_3.RECEIPT_CREATED": 1792912973.0714374,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1792912955.0932486,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1792912955.749114,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1792912955.1394067,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1792912944.6390102,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1792912944.6349254,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1792912944.6108313,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1792912944.6269279,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1792912944.631007,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1792912954.3586752,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1792912967.5617805,
+          "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1792912962.656277,
+          "COMMITTING.VALIDATOR_3.EXECUTION_FINISHED": 1792912973.0135875,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1792912955.4242656,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1792912955.389103,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1792912955.561631,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1792912955.540972,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1792912955.6851215,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1792912955.6655211,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1792912955.7323673,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1792912955.727933,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1792912955.7665913,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1792912955.7622595,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1792912955.3091087,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1792912955.3593051,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1792912955.5034904,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1792912955.5223389,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1792912955.6189053,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1792912955.6461515,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1792912955.7168682,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1792912955.7230515,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1792912955.7533703,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1792912955.7580743
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "eq_outputs": {
+              "0": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw=="
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xe06A34A1eBd398AF3399d08593B8c3C433CdD947/policy:prd-gpt-5-4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1779.43527757,
+              "host_loop_enter_wait_ms": 1917,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 1916
+              },
+              "host_first_method_received_s": 1779.435347392,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 9941,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "UNDETERMINED"
+        ],
+        "consensus_round": "Undetermined",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x007d6451555Df7765c707284F844137927aE4e5E/anthropic/claude-sonnet-4.6": {
+                    "input": 2450,
+                    "total": 3633,
+                    "output": 1183
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1788.651869771,
+              "host_loop_enter_wait_ms": 5,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 4
+              },
+              "host_first_method_received_s": 1788.651985103,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 11985,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x045291B293B9D68969c18B6637A8258038cf787A/policy:prd-gpt-5-4": {
+                    "input": 2239,
+                    "total": 3157,
+                    "output": 918
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1788.651262325,
+              "host_loop_enter_wait_ms": 4,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 3
+              },
+              "host_first_method_received_s": 1788.651338297,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 6959,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AVtMTE1fRVJST1JdIEludmFsaWQgY29tcGxldGUgcXVhbnRpdGllcw==",
+            "calldata": "FgRhcmdzFeQHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Voc2FuaXNpbGR1ci11eC9yYW5rLWNsZWFyL2M4MzAyN2JhNDllNTQwNDQ5ODA2MGY4NTI2OTk4YWRiNDM1ZWRkNDkvc3RhdGVtZW50cy9yZXZpZXcuanNvboQENDQ0NjI4NDQzYjQwY2JlMmY0MDdlYzYzY2E0ZjBiYWY0NzVlZTUzNTI0MTI3ZWQ0MDhhYTE1MGZhYWE5N2ZhMgZtZXRob2Q0aW5nZXN0",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "RANKCLEAR_INVALID_EXTRACTION {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\nRANKCLEAR_INVALID_REPAIR {\"cash\": [{\"quote\": \"The available external cash of amber is unresolved: the final reconciliation has not established whether two or three clearing-units are unrestricted now.\"}, {\"quote\": \"The final external cash available now to bronze is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}, {\"quote\": \"The final external cash available now to jade is 0 clearing-units. Inter-firm receivables are not included.\", \"value\": 0}], \"claims\": [[{\"quote\": \"The final outstanding obligation due now from amber to bronze is 3 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 3}, {\"quote\": \"Final settlement statement: amber owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: amber owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}], [{\"quote\": \"Final settlement statement: bronze owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: bronze owes jade zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"The final outstanding obligation due now from bronze to outside is 2 clearing-units. This supersedes a withdrawn draft of eight units; do not deduct further payments or offset reverse claims.\", \"value\": 2}], [{\"quote\": \"Final settlement statement: jade owes amber zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes bronze zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}, {\"quote\": \"Final settlement statement: jade owes outside zero clearing-units due in this clearing. All earlier balances for this creditor have been completely paid or waived.\", \"value\": 0}]]}\n",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8/policy:prd-sonnet": {
+                    "input": 2251,
+                    "total": 3155,
+                    "output": 904
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 9,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1795.549665243,
+              "host_loop_enter_wait_ms": 6902,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 6902
+              },
+              "host_first_method_received_s": 1795.549907659,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 0,
+            "processing_time": 17274,
+            "execution_result": "ERROR",
+            "contract_state_hash": "263a6b447ff9507a63f038316edb180eb8f82996e037a23d576e2e8bcb8b6ae5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          }
+        ]
+      }
+    ],
+    "current_monitoring": {
+      "FINALIZED": 1792913003.6958804,
+      "COMMITTING.VALIDATOR_0.RUN_END": 1792912975.3168175,
+      "COMMITTING.VALIDATOR_4.RUN_END": 1792912981.3994749,
+      "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1792912975.321366,
+      "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1792912981.4236465,
+      "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1792912975.3117282,
+      "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1792912981.3601744
+    },
+    "current_status_changes": [
+      "FINALIZED"
+    ]
+  },
+  "timestamp_appeal": null,
+  "appeal_processing_time": 0,
+  "config_rotation_rounds": 3,
+  "num_of_initial_validators": 5,
+  "last_vote_timestamp": "1792912973",
+  "rotation_count": 3,
+  "appeal_leader_timeout": false,
+  "leader_timeout_validators": [],
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9020902808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901a427241a9900000000000000000000000032decf0d73e719a4a4434043d357ac56290cfc100000000000000000000000001fa8af533c8b115fd8866f1acfbde8320ed8c36b0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000daf8d8b8d516046172677315e40768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f656873616e6973696c6475722d75782f72616e6b2d636c6561722f633833303237626134396535343034343938303630663835323639393861646234333565646434392f73746174656d656e74732f7265766965772e6a736f6e840434343436323834343362343063626532663430376563363363613466306261663437356565353335323431323765643430386161313530666161613937666132066d6574686f6434696e67657374000000000000008301e482a0ad8dd12f764016bbc633da561fd80f2b9da3aa48927e75b2b7821eba2e0c78bca00eaff99307374cce6f06f4f02e88e2aa2da4e36b2701df26db31759862623138"
+  },
+  "value_credited": false,
+  "current_timestamp": "1792913008",
+  "sender": "0x32DeCF0d73E719a4A4434043D357aC56290cFc10",
+  "recipient": "0x1FA8af533c8b115fd8866F1AcFbDE8320ed8c36B",
+  "tx_slot": "0",
+  "created_timestamp": "1792912818",
+  "random_seed": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "tx_id": "0x988c38eefd7152554707998ad6708512e2e156c142359d7eb28df19cfbf7fddb",
+  "read_state_block_range": {
+    "activation_block": "0",
+    "processing_block": "0",
+    "proposal_block": "0"
+  },
+  "activator": "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a",
+  "last_leader": "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947",
+  "result_name": "MAJORITY_DISAGREE",
+  "tx_data": "f8d8b8d516046172677315e40768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f656873616e6973696c6475722d75782f72616e6b2d636c6561722f633833303237626134396535343034343938303630663835323639393861646234333565646434392f73746174656d656e74732f7265766965772e6a736f6e840434343436323834343362343063626532663430376563363363613466306261663437356565353335323431323765643430386161313530666161613937666132066d6574686f6434696e6765737400",
+  "tx_execution_hash": "0xce20e131ef83a806167ab16e3be5730958de377d9d629f087da7f91efc1a45eb",
+  "eq_blocks_outputs": "0xdcc6c20100c0c080d4c480c20100c401c20100c402c20100c403c20100",
+  "messages": [],
+  "queue_type": "0",
+  "queue_position": "0",
+  "num_of_rounds": "4",
+  "last_round": {
+    "round": "3",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "0",
+    "result": 7,
+    "round_validators": [
+      "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947",
+      "0x007d6451555Df7765c707284F844137927aE4e5E",
+      "0x045291B293B9D68969c18B6637A8258038cf787A",
+      "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf"
+    ],
+    "validator_votes_hash": [
+      "0x571136a22df306baeae2d8c73a0652d1a02af263fd8a154788b3363b57f2d48c",
+      "0x513fb60b995d04becbe2dace74c707347ee033eb718844318ee98fce1efe2d5e",
+      "0xb1f125f7e6a3e0a976df862b7ea96b57d83566887b918548e383caff1d673fef",
+      "0x238b25e2a28b49edb0c024ae62517b397349ca38e345615bc367455ed4b35dbc",
+      "0xf138aa0c01843669beb06d8077aa0dc1b717980ebcfc7d7752879b4c934657b3"
+    ],
+    "validator_votes": [
+      5,
+      2,
+      2,
+      2,
+      5
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "DISAGREE",
+      "DISAGREE",
+      "DISAGREE",
+      "IDLE"
+    ]
+  }
+}

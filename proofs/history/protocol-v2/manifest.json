@@ -1,0 +1,12 @@
+{
+  "source_sha256": "44a7a3112ff60686735cd2814a1b1d96ab2849f7619a879ac161cd45804ccb5b",
+  "source_revision": "717e1333ea231595102a6ba6425070736140639d",
+  "workflow_run": 40172084209,
+  "receipt_count": 3,
+  "failed_ingest": "0x988c38eefd7152554707998ad6708512e2e156c142359d7eb28df19cfbf7fddb",
+  "execution": "ERROR",
+  "consensus": "MAJORITY_DISAGREE",
+  "error": "[LLM_ERROR] Invalid complete quantities",
+  "diagnosis": "The receipt stdout shows Amber's unknown-cash object containing quote but no value key, both before and after repair. It does not identify which model/provider/serialization layer omitted the null field. The final protocol requires the explicit UNKNOWN string and still rejects missing keys, JSON null, malformed cells and independently disputed values. No missing value is silently converted to UNKNOWN.",
+  "scope": "Unexpected failed consensus under the earlier null protocol, archived and excluded from the final-source primary suite. No snapshot was recorded. The next run uses a fresh instance and disposable signer."
+}

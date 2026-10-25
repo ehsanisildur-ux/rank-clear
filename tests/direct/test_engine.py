@@ -116,7 +116,7 @@ def test_unknown_blocks_all_clearing(case):
     for position in range(12):
         b = deepcopy(a)
         cell = b['cash'][position] if position < 3 else b['claims'][(position - 3) // 3][(position - 3) % 3]
-        cell['value'] = None
+        cell['value'] = 'UNKNOWN'
         r = F['compile_assessment'](b, ORDER)
         assert r['status'] == 'REVIEW' and r['unknown']
         assert 'least' not in r

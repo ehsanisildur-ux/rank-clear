@@ -1,0 +1,8 @@
+{
+  "source_sha256": "44a7a3112ff60686735cd2814a1b1d96ab2849f7619a879ac161cd45804ccb5b",
+  "hashes": {
+    "review-deployment": "0xb5756c9ab3737b2cd619bf800b10231d2dd2a71eb56e6c57c1e757ba84778509",
+    "review-reject-hash": "0x290a309acf699704836e7523876dc299b79e7096df5bf55c877b2b2eada68f42",
+    "review-ingest": "0x988c38eefd7152554707998ad6708512e2e156c142359d7eb28df19cfbf7fddb"
+  }
+}

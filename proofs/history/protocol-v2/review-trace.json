@@ -1,0 +1,70 @@
+[
+  {
+    "label": "review-reject-hash",
+    "method": "ingest",
+    "args": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/rank-clear/c83027ba49e5404498060f8526998adb435edd49/statements/review.json",
+      "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    ],
+    "error": "[EXTERNAL] Statement commitment mismatch",
+    "transaction": "0x290a309acf699704836e7523876dc299b79e7096df5bf55c877b2b2eada68f42",
+    "state_before": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": []
+    },
+    "state": {
+      "configuration": {
+        "firms": [
+          "amber",
+          "bronze",
+          "jade"
+        ],
+        "priorities": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "repository": "ehsanisildur-ux/rank-clear",
+        "unit": "clearing-unit"
+      },
+      "snapshots": []
+    }
+  }
+]

@@ -57,8 +57,8 @@ function endpoint(cash,claims,order,p,greatest){
 }
 function oracle(id,firm=-1,extra=0){
  const {cash,claims}=numeric(id),order=orders(id);
- if(cash.includes(null)||claims.flat().includes(null)){
-  return {status:'REVIEW',unknown:cash.flatMap((x,i)=>x===null?['cash:'+firms[i]]:[]).concat(claims.flatMap((row,i)=>row.flatMap((x,j)=>x===null?[firms[i]+'->'+names[j]]:[])))};
+ if(cash.includes('UNKNOWN')||claims.flat().includes('UNKNOWN')){
+  return {status:'REVIEW',unknown:cash.flatMap((x,i)=>x==='UNKNOWN'?['cash:'+firms[i]]:[]).concat(claims.flatMap((row,i)=>row.flatMap((x,j)=>x==='UNKNOWN'?[firms[i]+'->'+names[j]]:[])))};
  }
  if(firm>=0)cash[firm]+=extra;
  const points=fixedPoints(cash,claims,order);
